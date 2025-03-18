@@ -46,8 +46,8 @@ async function GetPosts() {
                 <div id="miniavatar" style="background : url('${UserAvatar}') no-repeat center center / cover"></div>
                 <div id="miniusername">${one.author.username}</div>
                 <div id="body">${one.body}</div>
-                <div id="countcomments"> <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M120-240v-80h480v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg> 50,000 </div>
-                <div id="countlikes"> <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="red"><path d="m480-120-58-52q-101-91-167-157T150-447.5Q111-500 95.5-544T80-634q0-94 63-157t157-63q52 0 99 22t81 62q34-40 81-62t99-22q94 0 157 63t63 157q0 46-15.5 90T810-447.5Q771-395 705-329T538-172l-58 52Zm0-108q96-86 158-147.5t98-107q36-45.5 50-81t14-70.5q0-60-40-100t-100-40q-47 0-87 26.5T518-680h-76q-15-41-55-67.5T300-774q-60 0-100 40t-40 100q0 35 14 70.5t50 81q36 45.5 98 107T480-228Zm0-273Z"/></svg> 50,000 </div>
+                <div id="countcomments"> 💬 50,000 </div>
+                <div id="countlikes"> ❤️ 50,000 </div>
                 <div id="creatat">${one.created_at}</div>
         </div>
         `
@@ -380,8 +380,8 @@ async function rigsterDoing() {
 avatar.style.background = `url('${localStorage.Suseravatar}') no-repeat center/cover`
 
 let makingsureOUT = document.getElementById('makingsureOUT');
-makingsureOUT.style.backgroundColor = 'rgba(92, 69, 97)'
-document.getElementById('makingsuredelete').style.backgroundColor = 'rgba(92, 69, 97)'
+makingsureOUT.style.backgroundColor = '#142b19'
+document.getElementById('makingsuredelete').style.backgroundColor = '#142b19'
 let cancelOUT = document.getElementById('cancelOUT');
 let sureOUT = document.getElementById('sureOUT');
 
